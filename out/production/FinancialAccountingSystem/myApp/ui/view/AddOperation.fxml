@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="root" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            fx:controller="myApp.ui.controller.AddOperationController">
+    <top>
+        <Label alignment="CENTER" contentDisplay="CENTER" text="Заполните данные операции:"
+               BorderPane.alignment="CENTER">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+            <BorderPane.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+            </BorderPane.margin>
+        </Label>
+    </top>
+    <bottom>
+        <Button fx:id="btnOK" alignment="CENTER" mnemonicParsing="false" onAction="#clickOK" text="Готово"
+                BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0"/>
+            </BorderPane.margin>
+        </Button>
+    </bottom>
+    <center>
+        <VBox alignment="CENTER" spacing="5.0">
+            <children>
+                <DatePicker fx:id="dateOperation"/>
+                <TextField fx:id="nameOperation" promptText="Название">
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                    </padding>
+                </TextField>
+                <TextField fx:id="sumOperation" promptText="Сумма">
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                    </padding>
+                </TextField>
+            </children>
+            <BorderPane.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+            </BorderPane.margin>
+        </VBox>
+    </center>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+</BorderPane>

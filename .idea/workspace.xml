@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03927d3f-0f7d-4fa4-bebd-a5d3c53b58c6" name="Default Changelist" comment="Version 2.0 (добавил комменты и некоторый функционал)&#10;Для жесткого пиара=)">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinancialAccountingSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CreditCards.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Operations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Wallet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/InterfaceStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/domain/CreditCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/domain/Operation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/domain/SourceFinance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/domain/TypeOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/domain/Wallet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/repository/CreditCardWorkWithFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/repository/OperationSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/repository/OperationsWorkWithFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/repository/OtherWorkWithFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/repository/SourceHolderSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/repository/UserHolderSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/repository/UsersWorkWithFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/repository/WalletsWorkWithFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/service/CalculationAmountItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/service/CreditCardService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/service/OperationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/service/SelectedItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/service/WalletService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/controller/AddCreditCardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/controller/AddOperationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/controller/AddUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/controller/AddWalletController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/controller/LoadView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/controller/StartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/controller/UserFinanceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/css/Interface_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/image/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/image/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/view/AddCreditCard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/view/AddOperation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/view/AddUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/view/AddWallet.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/view/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/view/Start.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinancialAccountingSystem/myApp/ui/view/UserFinance.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/domain/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/domain/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/domain/SourceFinance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/domain/TypeOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/domain/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/repository/CreditCardWorkWithFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/repository/OperationSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/repository/OperationsWorkWithFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/repository/OtherWorkWithFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/repository/SourceHolderSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/repository/UserHolderSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/repository/UsersWorkWithFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/repository/WalletsWorkWithFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/service/CalculationAmountItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/service/CreditCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/service/OperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/service/SelectedItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/service/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/controller/AddCreditCardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/controller/AddOperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/controller/AddUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/controller/AddWalletController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/controller/LoadView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/controller/StartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/controller/UserFinanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/css/Interface_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/image/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/image/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/view/AddCreditCard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/view/AddOperation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/view/AddUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/view/AddWallet.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/view/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/view/Start.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myApp/ui/view/UserFinance.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="XSLT Stylesheet" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Unnamed" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Project" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d72216da-13c8-4d00-b8ae-d1cff38d52bf" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="KosmA-86" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Project_Step_FinancialAccountingSystem" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/../../../../../../../Program Files/Java/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1klx6DQJKCtzvbfiK0jSksgxJgu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (3)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ICQ\Project\FinancialAccountingSystem\src\myApp\data" />
+      <recent name="C:\ICQ\Project\FinancialAccountingSystem\src\myApp\ui\css" />
+      <recent name="C:\ICQ\Project\FinancialAccountingSystem\src\myApp\ui\view\view" />
+      <recent name="C:\ICQ\Project\FinancialAccountingSystem\src\image" />
+      <recent name="C:\Users\kkolo\Desktop\FinancialAccountingSystem\src\Interface\Views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main" />
+      <recent name="Main.WorkWithFiles" />
+      <recent name="Main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ICQ\FinancialAccountingSystem\src\Interface\ControllersViews\Views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.InterfaceStart">
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interface" />
+      <module name="FinancialAccountingSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfaceStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="InterfaceStart" />
+      <module name="FinancialAccountingSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interface.ControllersViews.MainController" />
+      <module name="FinancialAccountingSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interface.ControllersViews.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="FinancialAccountingSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.InterfaceStart" />
+      <item itemvalue="Application.Interface" />
+      <item itemvalue="Application.MainController" />
+      <item itemvalue="Application.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InterfaceStart" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.MainController" />
+        <item itemvalue="Application.Interface" />
+        <item itemvalue="Application.InterfaceStart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\kkolo\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03927d3f-0f7d-4fa4-bebd-a5d3c53b58c6" name="Default Changelist" comment="" />
+      <created>1606288801976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606288801976</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Version 1.0 (without adding comments)">
+      <created>1607245919369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607245919369</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Version 2.0 (добавил комменты и некоторый функционал)">
+      <created>1607277354452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607277354452</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Version 2.0 (добавил комменты и некоторый функционал)">
+      <created>1607277370857</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607277370857</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Version 1.0">
+      <created>1607279035294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607279035294</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Версия 2.0 после исправления">
+      <created>1607705131783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607705131783</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Version 1.0 (without adding comments)" />
+    <MESSAGE value="Version 2.0 (добавил комменты и некоторый функционал)" />
+    <MESSAGE value="Version 1.0" />
+    <MESSAGE value="Версия 2.0 после исправления" />
+    <MESSAGE value="Version 2.0 (добавил комменты и некоторый функционал)&#10;Для жесткого пиара=)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2.0 (добавил комменты и некоторый функционал)&#10;Для жесткого пиара=)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/myApp/ui/controller/AddWalletController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FinancialAccountingSystem$InterfaceStart.ic" NAME="InterfaceStart Coverage Results" MODIFIED="1608279130104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

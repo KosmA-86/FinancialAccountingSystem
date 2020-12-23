@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="root" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            fx:controller="myApp.ui.controller.MainController">
+    <center>
+        <TableView fx:id="allUsers" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn fx:id="idColumn" prefWidth="58.2" text="№" visible="false"/>
+                <TableColumn fx:id="surnameColumn" prefWidth="310.0" text="Фамилия"/>
+                <TableColumn fx:id="nameColumn" prefWidth="218.0" text="Имя"/>
+            </columns>
+        </TableView>
+    </center>
+    <top>
+        <Label text="Выберите существующего, либо добавьте нового пользователя:" BorderPane.alignment="CENTER_LEFT">
+            <font>
+                <Font name="System Bold" size="14.0"/>
+            </font>
+            <padding>
+                <Insets bottom="5.0"/>
+            </padding>
+        </Label>
+    </top>
+    <bottom>
+        <ButtonBar BorderPane.alignment="CENTER">
+            <buttons>
+                <Button fx:id="btnNew" mnemonicParsing="false" onAction="#clickNew" text="Добавить"/>
+                <Button fx:id="btnOK" mnemonicParsing="false" onAction="#clickOK" text="Выбрать"/>
+            </buttons>
+            <BorderPane.margin>
+                <Insets bottom="5.0" top="5.0"/>
+            </BorderPane.margin>
+        </ButtonBar>
+    </bottom>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+</BorderPane>

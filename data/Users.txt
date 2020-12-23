@@ -1,0 +1,2 @@
+id:us1;name:Иван;surname:Иванов ; 
+id:us2;name:Петр;surname:Петров; 

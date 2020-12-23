@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="myApp.ui.controller.StartController">
+    <center>
+        <Button id="btnStart" fx:id="btnStart" alignment="CENTER" mnemonicParsing="false" onAction="#clickStart"
+                prefHeight="66.0" prefWidth="173.0" text="Войти" textAlignment="CENTER"
+                BorderPane.alignment="CENTER"/>
+    </center>
+    <top>
+        <Label alignment="CENTER" prefHeight="66.0" prefWidth="600.0" text="Система учета финансов"
+               textAlignment="CENTER" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Times New Roman Bold" size="27.0"/>
+            </font>
+        </Label>
+    </top>
+</BorderPane>

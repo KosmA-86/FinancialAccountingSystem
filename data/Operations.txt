@@ -1,0 +1,9 @@
+id:op6;name:уаца;source:wl4;sum:455.0;idUser:us1;type:DEBIT;date:18.12.2020; 
+id:op8;name:цуацуа;source:wl4;sum:-910.0;idUser:us1;type:CREDIT;date:18.12.2020; 
+id:op9;name:ацуа;source:cc1;sum:-230.0;idUser:us1;type:CREDIT;date:18.12.2020; 
+id:op10;name:цчцуа;source:cc1;sum:-301.0;idUser:us1;type:CREDIT;date:18.12.2020; 
+id:op11;name:вйцвйц;source:wl4;sum:-123.0;idUser:us1;type:CREDIT;date:21.12.2020; 
+id:op12;name:йцвйцв;source:wl2;sum:5156.0;idUser:us1;type:DEBIT;date:21.12.2020; 
+id:op13;name:йцвйцв;source:cc1;sum:156.0;idUser:us1;type:DEBIT;date:21.12.2020; 
+id:op14;name:йвйцвйцв;source:cc1;sum:-13.0;idUser:us1;type:CREDIT;date:18.12.2020; 
+id:op15;name:23к2к;source:wl5;sum:1561.0;idUser:us2;type:DEBIT;date:21.12.2020; 

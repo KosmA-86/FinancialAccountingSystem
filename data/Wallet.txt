@@ -1,0 +1,5 @@
+id:wl2;name:йцуйцу;sum:565.0;idUser:us1; 
+id:wl3;name:йцуйцу;sum:5651.0;idUser:us1; 
+id:wl4;name:еееееееееее;sum:5455.0;idUser:us1; 
+id:wl5;name:фцвфвц;sum:1561.0;idUser:us2; 
+id:wl6;name:32к;sum:1651.0;idUser:us2; 
